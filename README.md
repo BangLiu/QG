@@ -3,11 +3,12 @@ Implementation of the paper "Learning to Generate Questions by Learning What not
 
 Run:
 
-> python3 QG_main.py --not_processed_data —spacy_not_processed_data —train
+> python3 QG_main.py --not_processed_data --spacy_not_processed_data --train
 
->  python3 QG_main_newsqa.py --not_processed_data —spacy_not_processed_data —train
+>  python3 QG_main_newsqa.py --not_processed_data --spacy_not_processed_data --train
 
-If debug, add "—debug"
+If debug, add "—debug". It will run program with a few batches.
+If testing, replace "—train" with "—test".
 
 The data only need to be preprocessed for one time. After preprocessing, next time, we need to remove "--not_processed_data —spacy_not_processed_data". In this way, the code will know the data is already preprocessed, and won't do that again.
 
