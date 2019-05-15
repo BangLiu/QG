@@ -15,11 +15,15 @@ Please revise the file paths in the main files.
 
 Please download Glove and BPE files from websites.
 
-BPE: <https://github.com/bheinzerling/bpemb#how-to-use-bpemb>
+BPE (maybe updated): <https://github.com/bheinzerling/bpemb#how-to-use-bpemb>
 
 Glove: <https://nlp.stanford.edu/projects/glove/>
 
-SQuAD1.1-Zhou: https://res.qyzhou.me/redistribute.zip
+Original SQuAD1.1-Zhou: https://res.qyzhou.me/redistribute.zip
 
-NewsQA:<https://datasets.maluuba.com/NewsQA/dl>
+Original NewsQA:<https://datasets.maluuba.com/NewsQA/dl>
+
+We put our processed datasets and the package for metric computation in: https://drive.google.com/drive/folders/1csm8AGn0RYD3P6H-5rs0QbXE964x1ono?usp=sharing
+
+You can download the two zip files in the Google Drive link, and unzip them to replace the /Datasets and /nlgeval empty folders in this repository.
 
